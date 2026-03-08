@@ -3,17 +3,3 @@
     "rewrite": "/index.html"
   }
 }
-{
-  "routes": [
-    {
-      "route": "/*",
-      "allowedRoles": [ "letmein" ]
-    }
-  ],
-  "responseOverrides": {
-    "401": {
-      "statusCode": 302,
-      "redirect": "/.auth/login/aad"
-    }
-  }
-}
