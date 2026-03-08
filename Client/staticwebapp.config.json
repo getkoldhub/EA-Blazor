@@ -3,3 +3,10 @@
     "rewrite": "/index.html"
   }
 }
+
+"routes": [
+    {
+      "route": "/*",
+      "allowedRoles": ["letmein" ]
+    }
+  ]
